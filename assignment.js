@@ -37,17 +37,19 @@ console.log('Your Total Brick: ', totalBrick);
 
 // Number Four Problem Solving tinyFriend
 function tinyFriend(n) {
-  var min = n[0];
+  var min = n[0].length;
+  var minFriendsName = n[i]
   for (var i = 0; i < n.length; i++) {
-    var element = n[i];
+    var element = n[i].length;
     if (element < min) {
-      min = element;
+      min = n[i].length;
+      minFriendsName = n[i];
     }
   }
-  return min;
+  return minFriendsName;
 }
 
-var friendsName = ['Belal Hosen', 'Asad', 'Sohel chowdhury', 'Taposh'];
-var outPut = tinyFriend(friendsName);
+  var friendsName = ['Belal Hosen', 'Asad', 'Sohel chowdhury', 'Ata', 'Taposh'];
+  var outPut = tinyFriend(friendsName);
 
-console.log(outPut);
+  console.log(outPut);
